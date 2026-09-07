@@ -12,10 +12,18 @@ public class Repas {
 	}
 	
 	public int getNumero() {
-		this numeros = numeros
+		this.numeros = numeros
 	}
 	public void setNumero( int numeros  ) {
-		this numeros = numeros
+		this.numeros = numeros
+	}
+	
+	public LocalDate getDate(){
+		return this.date;
+	}
+	
+	public void setDate( LocalDate date  ) {
+		this.date = date
 	}
 	
 
